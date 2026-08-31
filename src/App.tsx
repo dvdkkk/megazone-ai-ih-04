@@ -2584,7 +2584,7 @@ export default function App() {
           <div>
             <div className="company-name">메가존클라우드(주) | MBC아카데미 컴퓨터교육센터</div>
             <p>MEGAZONE CLOUD x MBC아카데미 컴퓨터교육센터 </p>
-            <p>AI Campus · K-Digital Training</p>
+            <p>AI Campus · K-Digital Training | 홈페이지 담당자 : 한인호</p>
             <p>교육장소 : 과천 캠퍼스 (경기도 과천시 과천대로7길 74) | 역삼 캠퍼스 (서울 강남구 논현로85길 46)</p>
             <p>주관: 고용노동부 | 운영: 메가존클라우드 | 파트너: MBC아카데미 컴퓨터교육센터</p>
           </div>
