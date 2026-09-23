@@ -3825,3 +3825,140 @@ button, input, select {
   }
 }
 
+/* Consultation Card Styles */
+.apply-consult-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.apply-consult-badge-row {
+  margin-bottom: 12px;
+}
+
+.apply-consult-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.apply-pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: inline-block;
+  animation: apply-pulse 1.5s infinite;
+}
+
+@keyframes apply-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.apply-consult-title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #000000;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.apply-consult-desc {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.apply-consult-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.apply-checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #1f2937;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.apply-check-icon {
+  color: #5b50f6;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.apply-naver-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #5b50f6;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  padding: 16px 24px;
+  border-radius: 14px;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(91, 80, 246, 0.3);
+}
+
+.apply-naver-btn:hover {
+  background: #483ed4;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(91, 80, 246, 0.4);
+}
+
+.apply-naver-btn:active {
+  transform: translateY(0);
+}
+
+.apply-naver-btn-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.apply-naver-logo-tag {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.apply-naver-btn-text {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+.apply-naver-btn-icon {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
